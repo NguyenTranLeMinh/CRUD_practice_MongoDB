@@ -1,0 +1,5 @@
+mongodump --db=contractData
+Tạo backup cho tất cả collections trong DB contractData, cu the la 1 thu muc dump/contractData/<cac cap files .bson va .json> duoc tao ra
+
+mongorestore --host=localhost --port=27017 --nsInclude=unwind.* ./dump_Lab7
+Khoi phuc tat cac collections trong DB unwind nam trong thu muc dump_Lab7

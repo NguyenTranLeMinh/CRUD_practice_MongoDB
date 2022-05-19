@@ -1,0 +1,4 @@
+use <db_name>
+db.<collection_name>.drop()
+
+db.dropDatabase()
